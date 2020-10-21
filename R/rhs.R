@@ -1,5 +1,13 @@
+#' Rijkshuisstijlkleuren
+#'
+#' @param ... Komma gescheiden character met kleurnamen uit het Rijkshuisstijlpalet
+#'
+#' @return Character vector met kleurdefinities
+#' @export
+#'
+#' @examples rhs("paars", "groen")
 rhs <- function(...) {
-  
+
   kleuren <- unlist(list(...))
 
   # Controleer of kleuren geldig zijn
@@ -11,7 +19,7 @@ rhs <- function(...) {
         paste(names(rhs_kleuren), collapse = ", "),
         "\n"))
   }
-  
+
   # Return kleuren
   return(rhs_kleuren[kleuren])
 }
