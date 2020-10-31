@@ -1,12 +1,12 @@
 Package: rhs
 Title: Rijkshuisstijlkleuren
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Jan",
            family = "van de Kassteele",
            role = c("aut", "cre"),
            email = "jan.van.de.kassteele@rivm.nl",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0001-5926-6709"))
 Description: Uit de 17 communicatiekleuren van het Rijkshuisstijl kun je een palet kiezen met een extra palet van 7 grijstinten.
 License: MIT + file LICENSE
 Encoding: UTF-8
