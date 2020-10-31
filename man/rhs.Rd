@@ -4,17 +4,31 @@
 \alias{rhs}
 \title{Rijkshuisstijlkleuren}
 \usage{
-rhs(...)
+rhs(col)
 }
 \arguments{
-\item{...}{Komma gescheiden character met kleurnamen uit het Rijkshuisstijlpalet}
+\item{col}{Character vector met kleurnamen uit het Rijkshuisstijlpalet. Hoofdletterongevoelig.}
 }
 \value{
-Character vector met kleurdefinities
+Character vector met kleurdefinities.
 }
 \description{
 Rijkshuisstijlkleuren
 }
+\details{
+Geldige kleurnamen zijn:
+
+Paars, Violet, Robijnrood, Roze, Rood, Oranje, Donkergeel, Geel, Donkerbruin, Bruin,
+Donkergroen, Groen, Mosgroen,  Mintgroen, Donkerblauw, Hemelblauw, Lichtblauw
+
+Ieder kleur heeft ook twee lichtere tinten door ze aan te vullen met 1 of 2.
+
+Grijs 1 t/m 7 zijn neutrale tinten voor achtergrondkaders, grafieken en tabellen.
+}
 \examples{
-rhs("paars", "groen")
+rhs(col = c("paars", "groen"))
+
+}
+\references{
+\url{https://www.rijkshuisstijl.nl/basiselementen/basiselementen-online/online-kleuren}
 }
