@@ -4,7 +4,6 @@
 # rhs
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 ## Rijkshuisstijlkleuren
@@ -34,7 +33,6 @@ Hieronder een eenvoudig voorbeeld:
 library(rhs)
 
 # Geef de kleurcodes van twee rijkshuisstijlkleuren
-rhs("paars", "groen")
-#>     paars     groen 
-#> "#42145f" "#39870c"
+rhs(c("paars", "groen"))
+#> [1] "#42145f" "#39870c"
 ```

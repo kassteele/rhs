@@ -1,6 +1,6 @@
 #' Rijkshuisstijlkleuren
 #'
-#' @param col Character vector met kleurnamen uit het Rijkshuisstijlpalet. Hoofdletterongevoelig.
+#' @param col Character vector met kleurnamen uit het Rijkshuisstijlpalet. Niet hoofdlettergevoelig.
 #'
 #' @details
 #' Geldige kleurnamen zijn:

@@ -40,5 +40,5 @@ Hieronder een eenvoudig voorbeeld:
 library(rhs)
 
 # Geef de kleurcodes van twee rijkshuisstijlkleuren
-rhs("paars", "groen")
+rhs(c("paars", "groen"))
 ```

@@ -7,7 +7,7 @@
 rhs(col)
 }
 \arguments{
-\item{col}{Character vector met kleurnamen uit het Rijkshuisstijlpalet. Hoofdletterongevoelig.}
+\item{col}{Character vector met kleurnamen uit het Rijkshuisstijlpalet. Niet hoofdlettergevoelig.}
 }
 \value{
 Character vector met kleurdefinities.
